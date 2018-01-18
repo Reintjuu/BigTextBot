@@ -1,0 +1,29 @@
+{
+  "name": "big-text-bot",
+  "version": "1.0.0",
+  "description": "Translates text into big text.",
+  "main": "bot.js",
+  "engines": {
+    "node": "6.10.0",
+    "npm": "3.10.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reintjuu/BigTextBot.git"
+  },
+  "keywords": [
+    "big",
+    "text",
+    "bot",
+    "discord"
+  ],
+  "author": "Proxi#3710",
+  "dependencies": {
+    "discord.io": "github:woor/discord.io#gateway_v6",
+    "winston": "^2.4.0"
+  }
+}
