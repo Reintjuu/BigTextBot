@@ -24,6 +24,8 @@
   "author": "Proxi#3710",
   "dependencies": {
     "discord.io": "github:woor/discord.io#gateway_v6",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
     "winston": "^2.4.0"
   }
 }
