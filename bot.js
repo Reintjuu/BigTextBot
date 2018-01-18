@@ -47,6 +47,7 @@ function toEmojiText(match, offset, string) {
 /////////////////////////////////////////
 //  Site to keep dynos awake on Heroku //
 /////////////////////////////////////////
+const http = require('http');
 const express = require('express');
 const app = express();
 
